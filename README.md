@@ -1,70 +1,69 @@
-# E-commerce Website Using Django
+# Django Quiz App
 
-An e-commerce website based on a basic shopping cart where clients can purchase items and perform a checkout for their orders.
+**Date:** June 14, 2024
+**Developer:** Sachin Arora
+
+## Overview
+This quiz app built using the Django framework offers features such as adding multiple questions, user registration, and taking quizzes. Users can answer quiz questions, and the system will automatically evaluate the answers and provide the total marks obtained, as well as identifying incorrect answers.
 
 ## Project Information
 
-| About Project           | Project Details                       |
-|-------------------------|---------------------------------------|
-| **Project Name**        | E-commerce website using Django       |
-| **Python Version**      | 3.12 (Recommended)                     |
-| **Programming Language**| Python Django                         |
-| **Developer Name**      | Sachin Arora                     |
-| **IDE Tool**            | Sublime, Visual Studio, PyCharm (Recommended) |
-| **Project Type**        | Web Application                       |
-| **Database**            | SQLite                                |
+| About App                      | App Details                          |
+| ---------------------------------- | ---------------------------------------- |
+| **Project Name**                   | Quiz App    |
+| **Python Version (Recommended)**   | 3.12                                     |
+| **Programming Language Used**      | Python Django                            |
+| **IDE Tool (Recommended)**         | Visual Studio          |
+| **Database**                       | SQLite                                   |
 
-## Overview
+## Features
 
-This E-Commerce Website utilizes a database to store all the items. It includes a Django admin interface for managing users, products, categories, and customer orders.
+### Admin Side
+- **Login and Logout System**: Admins can securely log in and out.
+- **Manage Quiz**: Admins can add, update, and delete quizzes.
+- **Manage Users**: Admins can manage user accounts, including adding, updating, and deleting users.
+- **Change Password**: Admins can change their passwords for security.
 
-### Admin Features
+### User Side
+- **Login**: Users must log in before taking a quiz.
+- **Home Page**: The home page displays a list of available quiz questions.
 
-- **Dashboard**: Provides access to the entire system, including products, orders, users, and categories.
-- **Manage Products**: Add, update, and delete products.
-- **Manage Orders**: Monitor and manage customer orders, including payment status.
-- **Manage Categories**: Manage product categories such as Snacks, Fruits, and Vegetables.
-- **Manage Users**: Add, update, and delete user accounts.
-- **Login and Logout**: Secure login and logout system.
+##  Quiz Web Application with Django
 
-### Frontend Features
+### Time needed: 4 hours
 
-- **Home Page**: Displays a list of products for sale with category-based filtering.
-- **Viewing Products**: Customers can view all available products.
-- **Checkout Order**: Customers can checkout orders, which are confirmed by the admin.
-- **Customer Profile**: Customers can register and manage their profiles.
-- **Add to Cart**: Customers can add products to their cart temporarily.
+1. **Open file**: Open "PyCharm Professional", click "File", and select "New Project".
+2. **Choose Django**: Select "Django" and proceed.
+3. **Select the file location**: Choose a location for your project files.
+4. **Create the application name**: Name your application.
+5. **Click Create**: Finalize the creation by clicking the "Create" button.
+6. **Start Coding**: Begin adding functionality to your Django application with the necessary code.
 
-## How to Create an E-commerce Website in Django
+## Sample Screenshots
 
-### Steps to Create the Project
+- **Login Form**: The login interface for the Quiz App.
+- **Homepage**: The main page displaying a list of quiz questions.
+- **Quiz Form**: The interface where users can take quizzes.
 
-1. **Open file**: Open "PyCharm Professional" and create a new project.
-2. **Choose Django**: Select "Django" for the new project.
-3. **Select the file location**: Choose a location for your project.
-4. **Create application name**: Name your application.
-5. **Click Create**: Finish creating the project by clicking "create".
-6. **Start Coding**: Add functionality to your Django project.
 
-## How to Run the E-commerce Website
+## How to Run the Quiz App in Django
 
-1. **Extract/unzip the file**.
-2. **Install dependencies**: Open the command line, navigate to the project folder, and run:
-    ```sh
-    pip install Django Pillow
-    ```
-3. **Run the web server**:
-    ```sh
-    python manage.py runserver
-    ```
-4. **Open the browser** and go to `http://127.0.0.1:8000/`.
+1. **Clone the app from Github**.
+2. **Open Command Prompt**:
+    - Navigate to the project folder.
+    - Install the Django Framework and dependencies:
+      ```sh
+      pip install -r requirements.txt
+      ```
+    - Run the web server:
+      ```sh
+      python manage.py runserver
+      ```
+3. **Open the browser**: Go to `localhost:8000`.
 
-### Admin Panel Access
+## Additional Resources
 
-- **Username**: admin
-- **Password**: admin
+- Small project i keep on building for practice
 
-## Downloadable Source Code
 
-Yes, you can simple clone and run it. Feel free to message me for anywhere you are stuck at.
-
+Enjoy creating your Quiz App with Django!
