@@ -67,3 +67,12 @@ This quiz app built using the Django framework offers features such as adding mu
 
 
 Enjoy creating your Quiz App with Django!
+
+
+![alt text](image.png)
+
+
+![alt text](image-1.png)
+
+
+![alt text](image-2.png)
