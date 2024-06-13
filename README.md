@@ -7,9 +7,9 @@ An e-commerce website based on a basic shopping cart where clients can purchase 
 | About Project           | Project Details                       |
 |-------------------------|---------------------------------------|
 | **Project Name**        | E-commerce website using Django       |
-| **Python Version**      | 3.8 (Recommended)                     |
+| **Python Version**      | 3.12 (Recommended)                     |
 | **Programming Language**| Python Django                         |
-| **Developer Name**      | itsourcecode.com                      |
+| **Developer Name**      | Sachin Arora                     |
 | **IDE Tool**            | Sublime, Visual Studio, PyCharm (Recommended) |
 | **Project Type**        | Web Application                       |
 | **Database**            | SQLite                                |
